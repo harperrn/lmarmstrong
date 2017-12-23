@@ -38,3 +38,12 @@
     border-color: #a8a8a8;
     padding: 20px;
 }
+.archive-title {
+    padding: 50px;
+    font-size: 30px;
+}
+.archive-content {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
