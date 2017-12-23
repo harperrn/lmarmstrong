@@ -414,6 +414,9 @@ fieldset[disabled] .btn-white.active {
   margin: 0 auto 15px;
   text-align: center;
 }
+.icon-modal {
+  padding: 30px;
+}
 .icon.brand-secondary {
   border-color: #ccc;
   color: #ccc;
