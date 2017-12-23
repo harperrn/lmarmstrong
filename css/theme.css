@@ -254,7 +254,7 @@ a:hover {
   text-align: center;
 }
 #map {
-  height: 600px;
+  height: 300px;
 }
 .btn-ghost {
   color: #C12026;
@@ -403,7 +403,7 @@ fieldset[disabled] .btn-white.active {
   display: inline-block;
   width: 100px;
   height: 100px;
-  line-height: 80px;
+  line-height: 100px;
   border-radius: 50px;
   border: solid 1px #C12026;
   color: #C12026;
