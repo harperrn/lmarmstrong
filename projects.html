@@ -1,7 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M52DL3Q');
+    </script>
+    <!-- End Google Tag Manager -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Projects | LM Armstrong Bridgeford Construction</title>
     <meta name="description" content="">
@@ -9,16 +28,16 @@
     <meta name="robots" content="all,follow">
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <!-- Font Awesome & Pixeden Icon Stroke icon font-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
     <!-- Google fonts - Roboto Condensed & Roboto-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300,400">
-    <!-- lightbox-->
-    <link rel="stylesheet" href="css/lightbox.min.css">
+
     <!-- theme stylesheet-->
     <link rel="stylesheet" href="css/theme.css" id="theme-stylesheet">
-    <!-- Custom stylesheet - for your changes-->
+    <!-- Custom stylesheet-->
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
@@ -38,28 +57,34 @@
     <meta name="msapplication-TileColor" content="#C12026">
     <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#C12026">
-    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-  </head>
-  <body>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M52DL3Q"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- navbar-->
     <header class="header">
-      <div role="navigation" class="navbar navbar-default">
-        <div class="container">
-          <div class="navbar-header"><a href="index.html" class="navbar-brand"><img src="img/navbar-dark.svg" height="100%"/></a>
-            <div class="navbar-buttons">
-              <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle navbar-btn">Menu<i class="fa fa-align-justify"></i></button>
-            </div>
-          </div>
-          <div id="navigation" class="collapse navbar-collapse navbar-right">
-            <ul class="nav navbar-nav">
-              <li><a href="index.html">Home</a></li>
-              <li class="active"><a href="projects.html">Projects</a></li>
-              <li><a href="archive.html">News</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                
-              <!--<li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown <b class="caret"></b></a>
+        <div role="navigation" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header"><a href="index.html" class="navbar-brand"><img src="img/navbar-dark.svg" height="100%"/></a>
+                    <div class="navbar-buttons">
+                        <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle navbar-btn">Menu<i class="fa fa-align-justify"></i></button>
+                    </div>
+                </div>
+                <div id="navigation" class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="projects.html">Projects</a></li>
+                        <li><a href="archive.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+
+                        <!--<li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Dropdown item 1</a></li>
                   <li><a href="#">Dropdown item 2</a></li>
@@ -67,279 +92,270 @@
                   <li><a href="#">Dropdown item 4</a></li>
                 </ul>
               </li> -->
-              
-            </ul>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- *** LOGIN MODAL ***_________________________________________________________
-    
-    <div id="login-modal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true" class="modal fade">
-      <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button>
-            <h4 id="Login" class="modal-title">Customer login</h4>
-          </div>
-          <div class="modal-body">
-            <form action="customer-orders.html" method="post">
-              <div class="form-group">
-                <input id="email_modal" type="text" placeholder="email" class="form-control">
-              </div>
-              <div class="form-group">
-                <input id="password_modal" type="password" placeholder="password" class="form-control">
-              </div>
-              <p class="text-center">
-                <button type="button" class="btn btn-primary"><i class="fa fa-sign-in"></i> Log in</button>
-              </p>
-            </form>
-            <p class="text-center text-muted">Not registered yet?</p>
-            <p class="text-center text-muted"><a href="#"><strong>Register now</strong></a>! It is easy and done in 1 minute and gives you access to special discounts and much more!</p>
-          </div>
-        </div>
-      </div>
-    </div>
--->
-    <!-- *** LOGIN MODAL END ***-->
-    <section class="background-gray-lightest">
-      <div class="container">
-        <div class="breadcrumbs">
-          <ul class="breadcrumb">
-            <li><a href="index.html">Home</a></li>
-            <li>Projects</li>
-          </ul>
-        </div>
-        <h1>Project Portfolio</h1>
-        <p class="lead"></p>
-      </div>
-    </section>
-      
-      
-    <!-- Portfolio-->
-    <section id="portfolio" class="section--no-padding section--no-padding-top">
-      <div class="container-fluid">
-        <div class="row no-space">
-          <div class="col-lg-3 col-sm-4 col-xs-12">
-            <div class="box"><a data-toggle="modal" data-target="#M1" title="riverwalk" data-title="riverwalk"><img src="img/projects/riverwalk.jpg" alt="" class="img-responsive"></a></div>
-          </div>
-             <div class="modal fade" id="M1" role="dialog">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Riverwalk Project</h4>
-        </div>
-        <div class="modal-body">
-            <div class="row">
-            <div class="icon-modal text-center"><div class="icon"><i class="fa fa-clipboard"></i></div><p class="text-muted">Investor Name: Riverwalk Multi-use buildings<br> Published: 1/31/18<br> Location: 115 &amp; 215 Wilcox St. Castle Rock, CO. 80104<br> Value: ~$60MM<br> </p></div>
-               </div>
-          <p>Riverwalk is a residential re-development of two blocks of downtown Castle Rock. Bookending both sides of Sellars Gulch along Wilcox St., Riverwalk will maximize the resident’s and visitor’s experience by providing luxury amenities, only previously seen in downtown Denver developments. The developer’s goal is to attract young professionals to live and work in the Downtown Castle Rock area. Riverwalk will also help revitalize Downtown by abutting the Town’s $7 million investment in Festival Park. With the two new proposed developments just north of these two sites, Riverwalk will help redefine the heart of Castle Rock.
 
-The proposed Riverwalk development will consist of a mix of retail, office, and residential uses.  In total, Riverwalk would provide downtown Castle Rock with 14,000 sf of ground level retail, 34,000 sf of commercial office space, and 228 residential apartment units.  Parking would be accommodated one level below each building and at the street level, parked behind the retail sections. 323 parking spaces would be dedicated to residents, office users, and visitors as a part of the Riverwalk development.  Construction began Summer, 2017</p>
-            <img src="img/projects/riverwalk2.jpg" width="100%">
-            <br>
-            
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-                 </div>
+                    </ul>
+                </div>
             </div>
-            
-            <!-- Modal 2 -->
-            
-                      <div class="col-lg-3 col-sm-4 col-xs-12">
-            <div class="box"><a data-toggle="modal" data-target="#M2" title="nameofproject" data-title="nameofproject"><img src="img/projects/project2.jpg" alt="" class="img-responsive"></a></div>
-          </div>
-            
-            <div class="modal fade" id="M2" role="dialog">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Project Title</h4>
         </div>
-        <div class="modal-body">
-                        <div class="row">
-            <div class="icon-modal text-center"><div class="icon"><i class="fa fa-clipboard"></i></div><p class="text-muted">Investor Name: <br> Published: <br> Location: <br> Value: <br> </p></div>
-               </div>
-          <p>Some text in the modal.</p>
-            <img src="img/projects/project1.jpg" width="100%">
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-                 </div>
+    </header>
+
+    <section class="background-gray-lightest">
+        <div class="container">
+            <div class="breadcrumbs">
+                <ul class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li>Projects</li>
+                </ul>
             </div>
-            
-            <!-- Modal 3 -->
-            
-                      <div class="col-lg-3 col-sm-4 col-xs-12">
-            <div class="box"><a data-toggle="modal" data-target="#M3" title="nameofproject" data-title="nameofproject"><img src="img/projects/project3.jpg" alt="" class="img-responsive"></a></div>
-          </div>
-            
-            <div class="modal fade" id="M3" role="dialog">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Project Title</h4>
+            <h1>Project Portfolio</h1>
+            <p class="lead"></p>
         </div>
-        <div class="modal-body">
-                        <div class="row">
-            <div class="icon-modal text-center"><div class="icon"><i class="fa fa-clipboard"></i></div><p class="text-muted">Investor Name: <br> Published: <br> Location: <br> Value: <br> </p></div>
-               </div>
-          <p>Some text in the modal.</p>
-            <img src="img/projects/project1.jpg" width="100%">
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-                 </div>
-            </div>
-            
-            <!-- Modal 4 -->
-            
-                      <div class="col-lg-3 col-sm-4 col-xs-12">
+    </section>
+
+
+    <!-- Portfolio-->
+    <section id="portfolio" class="portfolio">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 col-xs-12">
+                    <div class="box"><a data-toggle="modal" data-target="#M1" title="Riverwalk" data-title="riverwalk"><img src="img/projects/riverwalk.jpg" alt="" class="img-responsive"></a></div>
+                </div>
+                <div class="modal fade" id="M1" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Riverwalk on Wilcox</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="icon-modal text-center">
+                                        <div class="icon"><i class="fa fa-clipboard"></i></div>
+                                        <p class="text-muted">Architect: Crane Architecture<br> Published: 1/31/18<br> Location: 115 &amp; 215 Wilcox St. Castle Rock, CO. 80104<br> Value: ~$60MM<br> </p>
+                                    </div>
+                                </div>
+                                <p>Riverwalk is a residential re-development of two blocks of downtown Castle Rock. Bookending both sides of Sellars Gulch along Wilcox St., Riverwalk will maximize the resident’s and visitor’s experience by providing luxury amenities, only previously seen in downtown Denver developments. The developer’s goal is to attract young professionals to live and work in the Downtown Castle Rock area. Riverwalk will also help revitalize Downtown by abutting the Town’s $7 million investment in Festival Park. With the two new proposed developments just north of these two sites, Riverwalk will help redefine the heart of Castle Rock. The proposed Riverwalk development will consist of a mix of retail, office, and residential uses. In total, Riverwalk would provide downtown Castle Rock with 14,000 sf of ground level retail, 34,000 sf of commercial office space, and 228 residential apartment units. Parking would be accommodated one level below each building and at the street level, parked behind the retail sections. 323 parking spaces would be dedicated to residents, office users, and visitors as a part of the Riverwalk development. Construction began Summer, 2017</p>
+                                <img src="img/projects/riverwalk2.jpg" width="100%">
+                                <br>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal 2 -->
+
+                <div class="col-lg-4 col-sm-12 col-xs-12">
+                    <div class="box"><a data-toggle="modal" a data-target="#M2" title="nameofproject" data-title="Zia NoDo"><img src="img/projects/zianodo.jpg" alt="" class="img-responsive"></a></div>
+                </div>
+
+                <div class="modal fade" id="M2" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Zia NoDo Complex</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="icon-modal text-center">
+                                        <div class="icon"><i class="fa fa-clipboard"></i></div>
+                                        <p class="text-muted">Architect: Crane Architecture <br> Published: 3/15/18<br> Location: 41st and Inca<br> Value: $110M<br> </p>
+                                    </div>
+                                </div>
+                                <p>Earlier this month, we were awarded multiple contracts for underground parking and concrete on the ZIA NoDo apartments; a new development in downtown Denver, Colorado. Construction on this project is projected to begin May 1st. The final construction will contain the capacity of 431 residencies (312 rented apartments and 119 condos for sale) Total projected value for this Confluence builders project is ~$110million. <br> View the project breakdown <a href="http://images1.loopnet.com/d2/I_e7vAy35w14firHsbzSVD38C4lqV_0VasOhJiP49eo/document.pdf" target="_blank">here.</a> </p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 3 -->
+
+                <div class="col-lg-4 col-sm-12 col-xs-12">
+                    <div class="box"><a data-toggle="modal" data-target="#M3" title="nameofproject" data-title="nameofproject"><img src="img/projects/project3.jpg" alt="" class="img-responsive"></a></div>
+                </div>
+
+                <div class="modal fade" id="M3" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Hilton Garden Inn</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="icon-modal text-center">
+                                        <div class="icon"><i class="fa fa-clipboard"></i></div>
+                                        <p class="text-muted">Investor Name: Hilton Hotels<br> Published: 3/19/18<br> Location: Colorado Springs, CO <br> Value: $2.7M<br> </p>
+                                    </div>
+                                </div>
+                                <p>LM Armstrong is currently construction post-tension decks, foundations, and elevated slabs for the Hilton Garden Inn, Colorado Springs. The project is worth roughly $2.7M and is in intermediate stages of completion.</p>
+                                <img src="img/projects/project1.jpg" width="100%">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 4 -->
+
+                <!--   <div class="col-lg-3 col-sm-6 col-xs-12">
             <div class="box"><a data-toggle="modal" data-target="#M4" title="nameofproject" data-title="nameofproject"><img src="img/projects/project4.jpg" alt="" class="img-responsive"></a></div>
           </div>
-            
-            <div class="modal fade" id="M4" role="dialog">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Project Title</h4>
-        </div>
-        <div class="modal-body">
-                        <div class="row">
-            <div class="icon-modal text-center"><div class="icon"><i class="fa fa-clipboard"></i></div><p class="text-muted">Investor Name: <br> Published: <br> Location: <br> Value: <br> </p></div>
-               </div>
-          <p>Some text in the modal.</p>
-            <img src="img/projects/project1.jpg" width="100%">
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-                 </div>
-            </div>
-            
-            <!-- Modal 5 -->
-            
-                      <div class="col-lg-3 col-sm-4 col-xs-12">
+
+                <div class="modal fade" id="M4" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Project Title</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="icon-modal text-center">
+                                        <div class="icon"><i class="fa fa-clipboard"></i></div>
+                                        <p class="text-muted">Investor Name: <br> Published: <br> Location: <br> Value: <br> </p>
+                                    </div>
+                                </div>
+                                <p>Some text in the modal.</p>
+                                <img src="img/projects/project1.jpg" width="100%">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+                <!-- Modal 5 -->
+                <!--<div class="row no-space">
+                <div class="col-lg-3 col-sm-6 col-xs-12">
             <div class="box"><a data-toggle="modal" data-target="#M5" title="nameofproject" data-title="nameofproject"><img src="img/projects/project5.jpg" alt="" class="img-responsive"></a></div>
           </div>
-            
-            <div class="modal fade" id="M5" role="dialog">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Project Title</h4>
-            <img src="img/projects/project1.jpg" width="100%">
-        </div>
-        <div class="modal-body">
-                        <div class="row">
-            <div class="icon-modal text-center"><div class="icon"><i class="fa fa-clipboard"></i></div><p class="text-muted">Investor Name: <br> Published: <br> Location: <br> Value: <br> </p></div>
-               </div>
-          <p>Some text in the modal.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-                 </div>
-            </div>
-            
-            <!-- Modal 6 -->
-            
-                      <div class="col-lg-3 col-sm-4 col-xs-12">
+                <div class="modal fade" id="M5" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Project Title</h4>
+                                <img src="img/projects/project1.jpg" width="100%">
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="icon-modal text-center">
+                                        <div class="icon"><i class="fa fa-clipboard"></i></div>
+                                        <p class="text-muted">Investor Name: <br> Published: <br> Location: <br> Value: <br> </p>
+                                    </div>
+                                </div>
+                                <p>Some text in the modal.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Modal 6 -->
+
+                <!--  <div class="col-lg-3 col-sm-6 col-xs-12">
             <div class="box"><a data-toggle="modal" data-target="#M6" title="nameofproject" data-title="nameofproject"><img src="img/projects/project4.jpg" alt="" class="img-responsive"></a></div>
           </div>
-            
-            <div class="modal fade" id="M6" role="dialog">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Project Title</h4>
-        </div>
-        <div class="modal-body">
-                        <div class="row">
-            <div class="icon-modal text-center"><div class="icon"><i class="fa fa-clipboard"></i></div><p class="text-muted">Investor Name: <br> Published: <br> Location: <br> Value: <br> </p></div>
-               </div>
-          <p>Some text in the modal.</p>
-            <img src="img/projects/project1.jpg" width="100%">
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-                 </div>
-            </div>
-            
-            <!-- Modal 7 -->
-            
-                      <div class="col-lg-3 col-sm-4 col-xs-12">
+        
+                <div class="modal fade" id="M6" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Project Title</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="icon-modal text-center">
+                                        <div class="icon"><i class="fa fa-clipboard"></i></div>
+                                        <p class="text-muted">Investor Name: <br> Published: <br> Location: <br> Value: <br> </p>
+                                    </div>
+                                </div>
+                                <p>Some text in the modal.</p>
+                                <img src="img/projects/project1.jpg" width="100%">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+
+                <!-- Modal 7 -->
+
+                <!--   <div class="col-lg-3 col-sm-6 col-xs-12">
             <div class="box"><a data-toggle="modal" data-target="#M7" title="nameofproject" data-title="nameofproject"><img src="img/projects/project1.jpg" alt="" class="img-responsive"></a></div>
           </div>
-            
-            <div class="modal fade" id="M7" role="dialog">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Project Title</h4>
-        </div>
-        <div class="modal-body">
-                        <div class="row">
-            <div class="icon-modal text-center"><div class="icon"><i class="fa fa-clipboard"></i></div><p class="text-muted">Investor Name: <br> Published: <br> Location: <br> Value: <br> </p></div>
-               </div>
-          <p>Some text in the modal.</p>
-            <img src="img/projects/project1.jpg" width="100%">
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-                 </div>
-            </div>
-            
-            <!-- Modal 8 -->
-            
-                      <div class="col-lg-3 col-sm-4 col-xs-12">
-            <div class="box"><a data-toggle="modal" data-target="#M8" title="nameofproject" data-title="nameofproject"><img src="img/projects/project6.jpg" alt="" class="img-responsive"></a></div>
-          </div>
-            
-            <div class="modal fade" id="M8" role="dialog">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Project Title</h4>
-        </div>
-        <div class="modal-body">
-                        <div class="row">
-            <div class="icon-modal text-center"><div class="icon"><i class="fa fa-clipboard"></i></div><p class="text-muted">Investor Name: <br> Published: <br> Location: <br> Value: <br> </p></div>
-               </div>
-          <p>Some text in the modal.</p>
-            <img src="img/projects/project1.jpg" width="100%">
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-                 </div>
-            </div>
-        
 
+                <div class="modal fade" id="M7" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Project Title</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="icon-modal text-center">
+                                        <div class="icon"><i class="fa fa-clipboard"></i></div>
+                                        <p class="text-muted">Investor Name: <br> Published: <br> Location: <br> Value: <br> </p>
+                                    </div>
+                                </div>
+                                <p>Some text in the modal.</p>
+                                <img src="img/projects/project1.jpg" width="100%">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+
+                <!-- Modal 8 -->
+
+                <!-- <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="box"><a data-toggle="modal" data-target="#M8" title="nameofproject" data-title="nameofproject"><img src="img/projects/project6.jpg" alt="" class="img-responsive"></a></div>
+                </div>
+
+                <div class="modal fade" id="M8" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Project Title</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="icon-modal text-center">
+                                        <div class="icon"><i class="fa fa-clipboard"></i></div>
+                                        <p class="text-muted">Investor Name: <br> Published: <br> Location: <br> Value: <br> </p>
+                                    </div>
+                                </div>
+                                <p>Some text in the modal.</p>
+                                <img src="img/projects/project1.jpg" width="100%">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+
+            </div>
         </div>
-      </div>
     </section>
     <footer class="footer-red">
         <div class="footer__copyright">
@@ -355,15 +371,15 @@ The proposed Riverwalk development will consist of a mix of retail, office, and 
                         </p>
 
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 text-center">
                         <h4 class="footer-heading">Business Hours</h4>
-                        <p class="light">Monday-Friday: 8am to 6pm
-                            <br> Saturday: Closed <br> Sunday: Closed
+                        <p class="light">Monday - Friday: 8am to 6pm
+                            <br> Closed Saturday &amp; Sunday
                         </p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 text-center">
                         <h4 class="footer-heading">Links</h4>
-                        <p class="light"><a class="light" href="#">Jobs</a> <br> <a class="light" href="#">Code of Conduct</a> <br> <a class="light" href="#">Company Profile</a> <br> <a class="light" href="#">Get a Quote</a></p>
+                        <p class="light"><a class="light" href="#">Jobs</a> <br> <a class="light" href="profile.pdf" target="_blank">Company Profile</a> <br> <a class="light" href="contact.html#contact">Request a Quote</a></p>
                     </div>
                 </div>
                 <div class="row">
@@ -377,18 +393,29 @@ The proposed Riverwalk development will consist of a mix of retail, office, and 
     <!-- Javascript files-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.cookie.js"> </script>
+    <script src="js/jquery.cookie.js">
+    </script>
     <script src="js/lightbox.min.js"></script>
-    <script src="js/front.js"></script><!-- substitute:livereload -->
+    <script src="js/front.js"></script>
+    <!-- substitute:livereload -->
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
     <!---->
     <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
+        (function(b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function() {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = '//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X');
+        ga('send', 'pageview');
     </script>
-  </body>
+</body>
+
 </html>
